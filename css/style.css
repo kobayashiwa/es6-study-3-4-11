@@ -269,5 +269,11 @@ header li a:hover {
 	box-shadow: 0 0 0 10px #fff, 0 6px 34px 0 rgba(0, 0, 0, 0.1);;
 }
 
+/** slide-show **/
+.slide-show {
+	background-image: url(../img/slide-show_bg.jpg);
+	background-size: cover;
+}
+
 
 
