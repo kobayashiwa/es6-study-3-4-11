@@ -273,6 +273,7 @@ header li a:hover {
 .slide-show {
 	background-image: url(../img/slide-show_bg.jpg);
 	background-size: cover;
+	padding: 120px 0 144px 0;
 }
 
 
