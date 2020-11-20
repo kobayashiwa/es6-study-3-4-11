@@ -271,9 +271,12 @@ header li a:hover {
 
 /** slide-show **/
 .slide-show {
-	background-image: url(../img/slide-show_bg.jpg);
+	background-image: url(../img/slide-show_bg.png);
 	background-size: cover;
 	padding: 120px 0 144px 0;
+}
+.slide-show h3 {
+	color: #fff;
 }
 
 
