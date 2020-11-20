@@ -285,6 +285,12 @@ header li a:hover {
 	margin-top: 64px;
 	background: #fff;
 }
+.img-blc {
+	max-width: 684px;
+}
+.img-blc img {
+	width: 100%;
+}
 
 
 
