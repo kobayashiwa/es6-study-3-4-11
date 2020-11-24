@@ -304,6 +304,9 @@ header li a:hover {
 	font-size: 15px;
 	color: #fc6530;
 }
+.star::before {
+	font-weight: 900;
+}
 
 
 
