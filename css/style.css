@@ -294,6 +294,11 @@ header li a:hover {
 .text-blc {
 	padding: 80px 80px 56px 80px;
 }
+.text-blc h4{
+	font-size: 40px;
+	font-weight: 300;
+	color: #3f3f3f;
+}
 
 
 
