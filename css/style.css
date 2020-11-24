@@ -335,6 +335,9 @@ header li a:hover {
 .star[data-rate="3.5"]:before {
 	content: "\f005\f005\f005\f5c0";
 }
+.star[data-rate="4.0"]:before {
+	content: "\f005\f005\f005\f005";
+}
 
 .star[data-rate="0.0"]:after {
 	content: "\f005\f005\f005\f005\f005";
@@ -358,6 +361,9 @@ header li a:hover {
 	content: "\f005\f005";
 }
 .star[data-rate="3.5"]:after {
+	content: "\f005";
+}
+.star[data-rate="4.0"]:after {
 	content: "\f005";
 }
 
