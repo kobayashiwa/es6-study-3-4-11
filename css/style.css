@@ -300,6 +300,9 @@ header li a:hover {
 	font-weight: 300;
 	color: #3f3f3f;
 }
+.lating {
+	margin-top: 16px;
+}
 .star {
 	font-family: "Font Awesome 5 Free";
 	font-size: 20px;
