@@ -309,6 +309,7 @@ header li a:hover {
 }
 .star::after {
 	font-weight: 400;
+	color: #D8D8D8;
 }
 
 .star[data-rate="0.0"]:before {
