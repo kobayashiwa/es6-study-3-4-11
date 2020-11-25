@@ -312,8 +312,7 @@ header li a:hover {
 	background-color:#E0931E;
 	position:absolute;
 	bottom:0;
-	left:50%;
-	transform: translate(-50%, 0);
+	left:0;
 }
 .lating {
 	margin-top: 16px;
