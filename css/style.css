@@ -301,6 +301,7 @@ header li a:hover {
 	font-weight: 300;
 	color: #3f3f3f;
 	position: relative;
+	padding-bottom: 32px;
 }
 .slide-show .text-blc h4::after {
 	content:"";
