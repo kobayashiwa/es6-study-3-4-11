@@ -281,6 +281,7 @@ header li a:hover {
 	font-weight: 300;
 	text-align: center;
 }
+
 .slide-blc {
 	margin-top: 64px;
 	background: #fff;
@@ -291,14 +292,26 @@ header li a:hover {
 .img-blc img {
 	width: 100%;
 }
-.text-blc {
+.slide-show .text-blc {
 	padding: 80px 80px 56px 80px;
 	text-align: left;
 }
-.text-blc h4{
+.slide-show .text-blc h4{
 	font-size: 40px;
 	font-weight: 300;
 	color: #3f3f3f;
+	position: relative;
+}
+.slide-show .text-blc h4::after {
+	content:"";
+	display:block;
+	width:240px;
+	height:1px;
+	background-color:#E0931E;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%, 0);
 }
 .lating {
 	margin-top: 16px;
