@@ -111,7 +111,7 @@
     <script src="js/swiper.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            　loop: true,
+            loop: true,
             slidesPerView: 3,
             navigation: {
                 nextEl: '.swiper-button-next',
@@ -163,8 +163,10 @@
             console.log (`${center}札幌サロン`);
         }
         bridal("ブライダル情報センター");
-        const oisix = (company)=> {}
-        company("オイシックス・ラ・大地");
+        const oisix = (company)=> {
+            console.log (`${company}、ウォルト・ディズニー・ジャパンと新プロジェクト発足`);
+        }
+        oisix("オイシックス・ラ・大地");
     </script>
     
 
