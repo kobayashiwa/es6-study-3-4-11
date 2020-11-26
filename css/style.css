@@ -287,14 +287,14 @@ header li a:hover {
 	background: #fff;
 }
 .img-blc {
-	max-width: 684px;
-	max-height: 684px;
+	max-width: 640px;
+	max-height: 640px;
 }
 .img-blc img {
 	height: 100%;
 }
 .slide-show .text-blc {
-	padding: 80px 80px 56px 80px;
+	padding: 80px 80px 48px 80px;
 	text-align: left;
 }
 .slide-show .text-blc h4{
@@ -397,13 +397,12 @@ header li a:hover {
 	content: "";
 }
 .swiper-container {
-	width: 400px;
 	height: 158px;
+	padding: 0 40px;
 }
 .swiper-slide {
 	width: 104px;
 	top: 12px;
-	padding: 12px;
 }
 .swiper-slide img {
 	width: 100%;

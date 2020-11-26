@@ -90,17 +90,19 @@
                                 <!-- <div><span class="star" data-rate="4.5"></span>4.5</div> -->
                                 <!-- <div><span class="star" data-rate="5.0"></span>5.0</div> -->
                             </div>
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="img/slider-thum01.jpg"></div>
-                                    <div class="swiper-slide"><img src="img/slider-thum02.jpg"></div>
-                                    <div class="swiper-slide"><img src="img/slider-thum03.jpg"></div>
-                                    <div class="swiper-slide"><img src="img/slider-thum01.jpg"></div>
-                                    <div class="swiper-slide"><img src="img/slider-thum02.jpg"></div>
-                                    <div class="swiper-slide"><img src="img/slider-thum03.jpg"></div>
+                            <div class="swiper-custom-parent">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="img/slider-thum01.jpg"></div>
+                                        <div class="swiper-slide"><img src="img/slider-thum02.jpg"></div>
+                                        <div class="swiper-slide"><img src="img/slider-thum03.jpg"></div>
+                                        <div class="swiper-slide"><img src="img/slider-thum01.jpg"></div>
+                                        <div class="swiper-slide"><img src="img/slider-thum02.jpg"></div>
+                                        <div class="swiper-slide"><img src="img/slider-thum03.jpg"></div>
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
                                 </div>
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
@@ -113,6 +115,8 @@
         var swiper = new Swiper('.swiper-container', {
             loop: true,
             slidesPerView: 3,
+            spaceBetween: 48,
+            paginationClickable: true,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
